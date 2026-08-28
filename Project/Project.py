@@ -8,6 +8,7 @@ plt.bar(type_count.index, type_count.values, color=['skyblue','orange'] )
 plt.title("number of movies Vs Tv shows on Netflix")
 plt.xlabel("Type")
 plt.ylabel("count")
+
 plt.tight_layout()
 plt.savefig("Movies_vs_Tvshows.png")
 plt.show()  
